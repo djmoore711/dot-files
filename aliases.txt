@@ -1,0 +1,21 @@
+## ALIASES ##
+alias ll='ls -alF --color=auto'         # long listing with color
+alias ls='ls --color=auto'              # listing with color
+alias grep='grep --color=auto'          # grep with color
+alias egrep='egrep --color=auto'        # egrep with color
+alias fgrep='fgrep --color=auto'        # fgrep with color
+alias ..='cd ..'                        # cd up one folder
+alias mount='mount |column -t'          # mount output beautification
+alias nanorc='nano ~/.zshrc'            # shortcut to edit zshrc
+alias rm='rm -I --preserve-root'        # safety net for / and prompt
+alias chown='chown --preserve-root'     # preserve root permissions
+alias chmod='chmod --preserve-root'     # preserve root permissions
+alias chgrp='chgrp --preserve-root'     # preserve root permissions
+alias root='sudo -i'                    # i am root
+alias su='sudo -i'                      # i am root
+alias reboot='sudo /sbin/reboot'        # easy reboot to sudo
+alias poweroff='sudo /sbin/poweroff'    # easy poweroff to sudo
+alias halt='sudo /sbin/halt'            # easy halt to sudo 
+alias shutdown='sudo /sbin/shutdown'    # easy shutdown to sudo
+alias df='df -H'                        # df human-redaable
+alias du='du -ch'                       # du human-readable w/ total
